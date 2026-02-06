@@ -1,0 +1,26 @@
+{
+  "name": "auto-talk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/whatsapp-config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jashwanth-12/auto-talk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jashwanth-12/auto-talk/issues"
+  },
+  "homepage": "https://github.com/jashwanth-12/auto-talk#readme",
+  "dependencies": {
+    "baileys": "^7.0.0-rc.9",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
