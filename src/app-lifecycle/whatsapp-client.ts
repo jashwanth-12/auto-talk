@@ -3,6 +3,7 @@ import qrcode from 'qrcode-terminal';
 import { processMessageBatch } from '../code/message-history-processor';
 import { initOrchestrator } from '../code/message-history-analyzer';
 import { startHealthMonitor } from '../code/health-monitor';
+import { handleNewMessage } from '../code/new-message-handler';
 import { registerShutdownHandlers } from './shutdown-handler';
 import { PATHS } from '../config/config';
 import { log } from '../logs/logger';
@@ -51,15 +52,7 @@ export async function connectToWhatsApp(): Promise<WASocket> {
     // Handle incoming messages
     sock.ev.on('messages.upsert', async (m) => {
         const message = m.messages[0];
-
-        if (!message.key.fromMe && m.type === 'notify') {
-            const sender = message.key.remoteJid;
-            const messageContent = message.message?.conversation ||
-                                   message.message?.extendedTextMessage?.text ||
-                                   '[Media/Other content]';
-
-            log(`New message from ${sender}: ${messageContent}`);
-        }
+        handleNewMessage(message, m.type);
     });
 
     // Initialize orchestrator, health monitor, and shutdown handlers
