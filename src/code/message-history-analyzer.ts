@@ -1,8 +1,6 @@
 import { EventEmitter } from 'events';
 import { spawn } from 'child_process';
-import * as fs from 'fs';
-import * as path from 'path';
-import { LLM_CONFIG, PATHS } from '../config/config';
+import { LLM_CONFIG } from '../config/config';
 import { log } from '../logs/logger';
 import * as repository from '../repository/message-history-repository';
 import { ChatMessage } from '../repository/message-history-repository';
@@ -90,7 +88,7 @@ export async function startLlmServerIfNeeded(): Promise<boolean> {
     });
 }
 
-export async function promptLlm(input: string, outputFileName: string): Promise<string> {
+export async function promptLlm(input: string): Promise<string> {
     // Ensure server is running
     const serverReady = await startLlmServerIfNeeded();
 
@@ -119,10 +117,8 @@ export async function promptLlm(input: string, outputFileName: string): Promise<
 
         const data = await response.json() as { response: string };
 
-        // Write output to file
-        const outputPath = path.join(PATHS.ROOT_DIR, outputFileName);
-        fs.writeFileSync(outputPath, data.response);
-        log(`[LLM] Response written to ${outputPath}`);
+        log('[LLM] Response received:');
+        log(data.response);
 
         return data.response;
     } catch (error) {
@@ -209,7 +205,7 @@ async function handleInitialHistoryReceived(): Promise<void> {
         const messagesText = formatMessagesForPrompt(chats);
         const prompt = buildAnalysisPrompt(messagesText);
 
-        await promptLlm(prompt, PATHS.ANALYSIS_OUTPUT_FILE);
+        await promptLlm(prompt);
 
         log('[Analyzer] Analysis complete');
     } catch (error) {

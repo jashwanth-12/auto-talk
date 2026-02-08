@@ -6,13 +6,18 @@ let logFilePath: string | null = null;
 
 function getLogFilePath(): string {
     if (!logFilePath) {
+        // Ensure logs directory exists
+        if (!fs.existsSync(PATHS.LOGS_DIR)) {
+            fs.mkdirSync(PATHS.LOGS_DIR, { recursive: true });
+        }
+
         const now = new Date();
         const timestamp = now.toISOString()
             .replace(/[:-]/g, '')
             .replace('T', '_')
             .replace(/\..+/, '');
         const filename = `${timestamp}.log`;
-        logFilePath = path.join(PATHS.ROOT_DIR, filename);
+        logFilePath = path.join(PATHS.LOGS_DIR, filename);
     }
     return logFilePath;
 }

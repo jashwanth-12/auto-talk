@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Auth info (contains WhatsApp credentials)
+auth_info/
+
+# Log files
+logs/*.log
+
+# Output files
+processed_messages.json
+
+# PID file
+.auto-talk.pid

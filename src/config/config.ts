@@ -6,9 +6,8 @@ const ROOT_DIR = path.join(__dirname, '..', '..');
 export const PATHS = {
     ROOT_DIR,
     AUTH_FOLDER: path.join(ROOT_DIR, 'auth_info'),
-    PID_FILE: path.join(ROOT_DIR, '.auto-talk.pid'),
-    PROCESSED_MESSAGES_FILE: path.join(ROOT_DIR, 'processed_messages.json'),
-    ANALYSIS_OUTPUT_FILE: 'whatsapp-msgs-analysis.json'
+    LOGS_DIR: path.join(ROOT_DIR, 'logs'),
+    PID_FILE: path.join(ROOT_DIR, '.auto-talk.pid')
 };
 
 // ============ MESSAGE PROCESSOR CONFIG ============
