@@ -1,0 +1,1414 @@
+{
+  "processedAt": "2026-02-07T23:56:26.431Z",
+  "config": {
+    "maxMessagesPerChat": 500,
+    "daysToKeep": 7
+  },
+  "stats": {
+    "originalMessageCount": 10154,
+    "filteredMessageCount": 275,
+    "chatCount": 12,
+    "batchesReceived": 7
+  },
+  "chats": {
+    "Fasak Burning Youth": [
+      {
+        "timestamp": 1769921843,
+        "sender": "harsha",
+        "message": "Discord anyone"
+      },
+      {
+        "timestamp": 1769922046,
+        "sender": "Pavan",
+        "message": "Night 11ish?"
+      },
+      {
+        "timestamp": 1769922338,
+        "sender": "harsha",
+        "message": "Yeah cool"
+      },
+      {
+        "timestamp": 1769922357,
+        "sender": "harsha",
+        "message": "@Sunil Chandra @Hemanth aap bhi aao miya"
+      },
+      {
+        "timestamp": 1769922766,
+        "sender": "Sunil Chandra",
+        "message": "Haan miya meeku night 11 ante ist kab miya?"
+      },
+      {
+        "timestamp": 1769922891,
+        "sender": "harsha",
+        "message": "1230pm"
+      },
+      {
+        "timestamp": 1769927262,
+        "sender": "Hemanth",
+        "message": "IST time cheppu ra"
+      },
+      {
+        "timestamp": 1769927525,
+        "sender": "harsha",
+        "message": "1230pm ist"
+      },
+      {
+        "timestamp": 1769929940,
+        "sender": "harsha",
+        "message": "https://discord.gg/SzrjUJzru @Sunil Chandra @Hemanth @Jitin @Pavan @Teja Sai Srikanth M @Vicky discipline leda aa meeku"
+      },
+      {
+        "timestamp": 1769929954,
+        "sender": "harsha",
+        "message": "Sharp 1230 ki undali"
+      },
+      {
+        "timestamp": 1769930050,
+        "sender": "Pavan",
+        "message": "1 north 1 south?"
+      },
+      {
+        "timestamp": 1769930327,
+        "sender": "harsha",
+        "message": "Naaku ippude telisindi goss"
+      },
+      {
+        "timestamp": 1769930436,
+        "sender": "Pavan",
+        "message": "You calling @Jitin short?"
+      },
+      {
+        "timestamp": 1769930487,
+        "sender": "harsha",
+        "message": "Join avvu discord uu"
+      },
+      {
+        "timestamp": 1769930851,
+        "sender": "Pavan",
+        "message": "@271205827362903@lid  join disc"
+      },
+      {
+        "timestamp": 1770026997,
+        "sender": "harsha",
+        "message": "https://www.instagram.com/reel/DSRMZQsErLl/?igsh=YzAyMDM1MGJkZA=="
+      },
+      {
+        "timestamp": 1770345547,
+        "sender": "Pavan",
+        "message": "https://youtu.be/azxOOBL_U4Y?si=g7nCGhWkY3_b8bjU"
+      },
+      {
+        "timestamp": 1770345552,
+        "sender": "Pavan",
+        "message": "Beautiful video"
+      },
+      {
+        "timestamp": 1770439167,
+        "sender": "Pavan",
+        "message": "@Sunil Chandra nee roommate ki Pelli aipotundi"
+      },
+      {
+        "timestamp": 1770440741,
+        "sender": "Sunil Chandra",
+        "message": "Kaushik aa?"
+      },
+      {
+        "timestamp": 1770441020,
+        "sender": "Pavan",
+        "message": "Oh, Ameet kaada nee roommate"
+      },
+      {
+        "timestamp": 1770441089,
+        "sender": "Sunil Chandra",
+        "message": "Pakkana room le"
+      },
+      {
+        "timestamp": 1770441096,
+        "sender": "Sunil Chandra",
+        "message": "evaru briti tho ne naa"
+      },
+      {
+        "timestamp": 1770441620,
+        "sender": "Pavan",
+        "message": "Yep"
+      },
+      {
+        "timestamp": 1770451190,
+        "sender": "Vicky",
+        "message": "@Pavan neeku kooda ee yr lo avvabothundhi ga🙃…memu arusthunnama"
+      },
+      {
+        "timestamp": 1770451603,
+        "sender": "Sunil Chandra",
+        "message": "Bio data chusaa"
+      },
+      {
+        "timestamp": 1770451741,
+        "sender": "Sunil Chandra",
+        "message": "Salary downplay chestunnaru enduku @Pavan"
+      },
+      {
+        "timestamp": 1770451758,
+        "sender": "Sunil Chandra",
+        "message": "Real numbers pedthe bhayapadtaaru anaa?"
+      },
+      {
+        "timestamp": 1770453129,
+        "sender": "Pavan",
+        "message": "No gold diggers"
+      },
+      {
+        "timestamp": 1770488261,
+        "sender": "Pavan",
+        "message": "bois discord @Sunil Chandra @271205827362903@lid"
+      },
+      {
+        "timestamp": 1770488310,
+        "sender": "harsha",
+        "message": "I take marriage invites in person only, discord not accepted"
+      },
+      {
+        "timestamp": 1770488430,
+        "sender": "Sunil Chandra",
+        "message": "Coming"
+      },
+      {
+        "timestamp": 1770503872,
+        "sender": "Vicky",
+        "message": "Reyy kodhiga naa timing kooda suit ayettu pettandra"
+      }
+    ],
+    "Pavan": [
+      {
+        "timestamp": 1769969593,
+        "sender": "Pavan",
+        "message": "Evadra eedu demand chestad enti"
+      },
+      {
+        "timestamp": 1769970027,
+        "sender": "__me__",
+        "message": "Lol, nannu adigaru, naku telidu anna \n\nEvaranna YC lo try chesina vallu telusaa ani adigaru, nee number ichaa"
+      },
+      {
+        "timestamp": 1769970061,
+        "sender": "__me__",
+        "message": "Chudu, time ledu ante light ani cheppay"
+      },
+      {
+        "timestamp": 1770490762,
+        "sender": "Pavan",
+        "message": "But this is in usa, is that ok? If not, ask him to look for roles under core ads growth"
+      },
+      {
+        "timestamp": 1770498994,
+        "sender": "__me__",
+        "message": "Nice, evaru veedu?"
+      },
+      {
+        "timestamp": 1770499005,
+        "sender": "__me__",
+        "message": "Core ads growth London already apply chesa"
+      },
+      {
+        "timestamp": 1770499014,
+        "sender": "__me__",
+        "message": "Manager wait chestunnafu"
+      },
+      {
+        "timestamp": 1770499021,
+        "sender": "__me__",
+        "message": "US try chestha"
+      },
+      {
+        "timestamp": 1770499482,
+        "sender": "Pavan",
+        "message": "https://www.linkedin.com/in/vivekragireddy?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+      },
+      {
+        "timestamp": 1770499486,
+        "sender": "Pavan",
+        "message": "Teja valla friend"
+      }
+    ],
+    "Ram Pedapudi": [
+      {
+        "timestamp": 1769961714,
+        "sender": "Ram Pedapudi",
+        "message": "Bangaram good night"
+      },
+      {
+        "timestamp": 1770137891,
+        "sender": "__me__",
+        "message": "Meeting lo unna"
+      },
+      {
+        "timestamp": 1770137897,
+        "sender": "__me__",
+        "message": "Repu call chestha"
+      },
+      {
+        "timestamp": 1770308659,
+        "sender": "Ram Pedapudi",
+        "message": "Bangaram busy"
+      },
+      {
+        "timestamp": 1770308673,
+        "sender": "Ram Pedapudi",
+        "message": "Can I call tomorrow….."
+      },
+      {
+        "timestamp": 1770309353,
+        "sender": "__me__",
+        "message": "Yeah, will call tomorrow"
+      }
+    ],
+    "Bhavya": [
+      {
+        "timestamp": 1770431466,
+        "sender": "Bhavya",
+        "message": "https://www.instagram.com/reel/DUXigPSDwiq/?igsh=MWZ2M2JjbXJlM3Z0OQ=="
+      },
+      {
+        "timestamp": 1770479319,
+        "sender": "Bhavya",
+        "message": "Can I call you later?"
+      }
+    ],
+    "Arun Prasad": [
+      {
+        "timestamp": 1770129550,
+        "sender": "__me__",
+        "message": "Do the hiring managers ask any tech questions or behaviour question for internal movement?"
+      },
+      {
+        "timestamp": 1770129562,
+        "sender": "__me__",
+        "message": "I have a call with a manager, so want to be prepared"
+      },
+      {
+        "timestamp": 1770129695,
+        "sender": "Arun Prasad",
+        "message": "Nope"
+      },
+      {
+        "timestamp": 1770129700,
+        "sender": "Arun Prasad",
+        "message": "Behavioural yes"
+      },
+      {
+        "timestamp": 1770129713,
+        "sender": "Arun Prasad",
+        "message": "Technical nope"
+      },
+      {
+        "timestamp": 1770129722,
+        "sender": "Arun Prasad",
+        "message": "Behavioral like"
+      },
+      {
+        "timestamp": 1770129725,
+        "sender": "__me__",
+        "message": "So it is sort of an interview"
+      },
+      {
+        "timestamp": 1770129729,
+        "sender": "Arun Prasad",
+        "message": "What projects interest you ?"
+      },
+      {
+        "timestamp": 1770129732,
+        "sender": "Arun Prasad",
+        "message": "Nope casual"
+      },
+      {
+        "timestamp": 1770129743,
+        "sender": "Arun Prasad",
+        "message": "Like what areas are your strengths"
+      },
+      {
+        "timestamp": 1770129748,
+        "sender": "Arun Prasad",
+        "message": "Like execution or direction etc"
+      },
+      {
+        "timestamp": 1770129758,
+        "sender": "Arun Prasad",
+        "message": "Do you like exploratory projects or tech intensive"
+      },
+      {
+        "timestamp": 1770129771,
+        "sender": "__me__",
+        "message": "Got it, thanks!"
+      },
+      {
+        "timestamp": 1770402391,
+        "sender": "Arun Prasad",
+        "message": "Hey"
+      },
+      {
+        "timestamp": 1770402396,
+        "sender": "Arun Prasad",
+        "message": "How are you doing ?"
+      },
+      {
+        "timestamp": 1770402407,
+        "sender": "Arun Prasad",
+        "message": "Weekends em chiesa ?"
+      },
+      {
+        "timestamp": 1770455764,
+        "sender": "__me__",
+        "message": "Hey, not bad"
+      },
+      {
+        "timestamp": 1770455832,
+        "sender": "__me__",
+        "message": "Nothing much. Will do some LC and HLD"
+      },
+      {
+        "timestamp": 1770455849,
+        "sender": "__me__",
+        "message": "Do you have any plans?"
+      }
+    ],
+    "919932566728@s.whatsapp.net": [
+      {
+        "timestamp": 1769953696,
+        "sender": "919932566728@s.whatsapp.net",
+        "message": "All ok?"
+      },
+      {
+        "timestamp": 1770046402,
+        "sender": "919932566728@s.whatsapp.net",
+        "message": "Yo, emina movie, dinner or  anywhere else eldam ante cheppu.."
+      },
+      {
+        "timestamp": 1770047495,
+        "sender": "__me__",
+        "message": "Dinner veldam some place ki"
+      },
+      {
+        "timestamp": 1770048477,
+        "sender": "__me__",
+        "message": "Eeroju vaddule, nenu order chestha, ee week lo epudanna veldam"
+      },
+      {
+        "timestamp": 1770112038,
+        "sender": "919932566728@s.whatsapp.net",
+        "message": "Arey eroju nunchi 6-7pm compulsory meeting ra"
+      },
+      {
+        "timestamp": 1770112051,
+        "sender": "919932566728@s.whatsapp.net",
+        "message": "Form loki ravali fast ga"
+      },
+      {
+        "timestamp": 1770112994,
+        "sender": "__me__",
+        "message": "Aa ok"
+      },
+      {
+        "timestamp": 1770136479,
+        "sender": "919932566728@s.whatsapp.net",
+        "message": "Arey me Pavan ki ok sari message pettava.. Na friend Bala niku reach ayyadu ani.. Something like that.. Vadiki whatsApp message pettam but vadi daggara nunchi no response yet"
+      },
+      {
+        "timestamp": 1770139787,
+        "sender": "919932566728@s.whatsapp.net",
+        "message": "Ekkada vunnav?"
+      },
+      {
+        "timestamp": 1770141776,
+        "sender": "919932566728@s.whatsapp.net",
+        "message": "Arey 7 ki ala veldam dinner ki.. Nenu call chesta"
+      },
+      {
+        "timestamp": 1770144150,
+        "sender": "__me__",
+        "message": "Ok, nenu office lo unna"
+      },
+      {
+        "timestamp": 1770412663,
+        "sender": "__me__",
+        "message": "Nenu kindaki vastunna"
+      },
+      {
+        "timestamp": 1770412665,
+        "sender": "__me__",
+        "message": "Vachey"
+      },
+      {
+        "timestamp": 1770412700,
+        "sender": "919932566728@s.whatsapp.net",
+        "message": "Ok"
+      }
+    ],
+    "London Wale 3.0": [
+      {
+        "timestamp": 1769935482,
+        "sender": "37546755117281@lid",
+        "message": "https://youtube.com/shorts/TODR_wUFN_Q?si=ciqEa2EEz2QfbK34"
+      },
+      {
+        "timestamp": 1769954379,
+        "sender": "230799043465316@lid",
+        "message": "Anyone selling fred again tix here?"
+      },
+      {
+        "timestamp": 1770027739,
+        "sender": "37546755117281@lid",
+        "message": "Any similar group for dublin\n\nDaughter will be moving there may onwards"
+      },
+      {
+        "timestamp": 1770153944,
+        "sender": "223647587377321@lid",
+        "message": "Hi, is anyone travelling from mumbai to London anytime soon? I need one medicine urgently. Can have it couriered to your place in mumbai easily. Please ping me if so. Thanks!"
+      },
+      {
+        "timestamp": 1770191679,
+        "sender": "74281593651453@lid",
+        "message": "Anyone looking to go for Shreya Ghoshal concert, 12th April (Sunday) O2 London? Have 2 tickets available."
+      },
+      {
+        "timestamp": 1770191775,
+        "sender": "135051119436021@lid",
+        "message": "Price ?"
+      },
+      {
+        "timestamp": 1770216909,
+        "sender": "255417611497596@lid",
+        "message": "2 double bed room available for couple , 2  girls ,2 boys or 1 person near Tower bridge..All bills included. £500 per person + 2 weeks deposit\nCall 07890569842"
+      },
+      {
+        "timestamp": 1770219583,
+        "sender": "218351976583333@lid",
+        "message": "Hey guys, \n\nI need €200 cash.\nAny suggestions for the best/cheapest way to withdraw or exchange?\nAlso happy to take euros from someone if available 😊"
+      },
+      {
+        "timestamp": 1770219642,
+        "sender": "122316541448395@lid",
+        "message": "Victoria exchange"
+      },
+      {
+        "timestamp": 1770219665,
+        "sender": "218351976583333@lid",
+        "message": "Ok"
+      },
+      {
+        "timestamp": 1770219679,
+        "sender": "122316541448395@lid",
+        "message": "https://share.google/pE4g0Hx5d4n7k1h4M"
+      },
+      {
+        "timestamp": 1770219761,
+        "sender": "122316541448395@lid",
+        "message": "You can go to their shop in victoria and get euros from them"
+      },
+      {
+        "timestamp": 1770219774,
+        "sender": "122316541448395@lid",
+        "message": "You don’t need to place order"
+      },
+      {
+        "timestamp": 1770219794,
+        "sender": "122316541448395@lid",
+        "message": "I have never ordered any currency unless it’s a rare one"
+      },
+      {
+        "timestamp": 1770219831,
+        "sender": "122316541448395@lid",
+        "message": "Even with that, place the order and collect from their outlet"
+      },
+      {
+        "timestamp": 1770219848,
+        "sender": "218351976583333@lid",
+        "message": "Yh"
+      },
+      {
+        "timestamp": 1770219849,
+        "sender": "218351976583333@lid",
+        "message": "Sure"
+      },
+      {
+        "timestamp": 1770219857,
+        "sender": "218351976583333@lid",
+        "message": "Thanks for the recommendation"
+      },
+      {
+        "timestamp": 1770227980,
+        "sender": "33814646657169@lid",
+        "message": "Hello everyone, I hope you all are doing well! I’m Kratika Singi based in Birmingham and I’m currently looking for a sponsored job opportunity in an analyst or consultant role in the UK. \nIf anyone knows of any openings or could refer me to an opportunity, I would be extremely grateful for your help. \n\nThankyou soo much in advance."
+      },
+      {
+        "timestamp": 1770230329,
+        "sender": "140582970249355@lid",
+        "message": "The purpose of this group is for everyone to **share job-related information** with each other.\n\n👉 If anyone gets *job information* through their company, friend circle, or other sources, please share it here.\n👉 If you come across a good **consultant/advisor** who can assist, do share their details as well.\n👉 If someone in your contacts may have such information, please share this *group link* with them or directly add them here.\n👉 Not only jobs, but if you come across **business opportunities** or any useful information, please share that too.\n\nThe sole purpose of this group is that everyone shares the **knowledge/information** they receive, so that it may help others. In this way, we aim to build a **collaborative community** to support one another.\n\nOur slogan:\n**\"एक-मेका सहाय्य करु, आवघे धरू सुपंथ*\n*{Let us help one another and together we make success}\"** \n🌸\n\nhttps://chat.whatsapp.com/CRPtgKAwE3RBA08MeCHTDc?mode=ems_copy_c"
+      },
+      {
+        "timestamp": 1770230533,
+        "sender": "33814646657169@lid",
+        "message": "Thank you"
+      },
+      {
+        "timestamp": 1770241199,
+        "sender": "185924939944096@lid",
+        "message": "Hey all, I’m in a dispute with my current landlord, so getting a reference from them isn’t really an option. The next agency I’m dealing with requires references though. Any suggestions or hacks that people have successfully used?"
+      },
+      {
+        "timestamp": 1770243777,
+        "sender": "277094210769115@lid",
+        "message": "Tell them that  u are living with ur family / friends."
+      },
+      {
+        "timestamp": 1770285742,
+        "sender": "196731396464718@lid",
+        "message": "Hello fellow Londonwales,\n*Forex rate today*: 122.56\n\n\n💰 *Discounted Promotions*:\n\n\n\n\n🛋️ *Resell stuff*:\n more, d̲e̲t̲a̲i̲l̲s̲ ̲a̲t̲-\nhttps://t.ly/j7qcS\n\n\n\n🏠 *Find Flatmate/Tenancy Takeover*:\nPooja Jaij, Rashi Gupta more, d̲e̲t̲a̲i̲l̲s̲ ̲a̲t̲-\nhttps://t.ly/wqBY_\n\n\n\n🎉 *Resell tickets*:\nVir das standup comedy sh.., Harry Styles more, d̲e̲t̲a̲i̲l̲s̲ ̲a̲t̲-\nhttps://t.ly/ZrjDW\n\n\n\n🏠 *Sublet/Temporary Accommodation*:\n more, d̲e̲t̲a̲i̲l̲s̲ ̲a̲t̲-\nhttps://t.ly/9_BRb\n\n\n\n📄 *Advertisement forms*:\n\n    Post your Resell Ticket ad: https://shorturl.at/MOplf\n    Post your Resell Stuff ad: https://shorturl.at/DcXU7\n    Post your Find Flatmate/Tenancy Takeover ad: https://shorturl.at/KM5nz\n    Post your Sublet/Temporary Accommodation ad: https://shorturl.at/TBRgb\n\n\n*List of interesting whatsapp groups*:\n\nFree Schengen Visa slot notification: https://shorturl.at/YpluY\nMain London Wale grp: https://shorturl.at/Cjqo7\nFlatmate Search Grp: https://2ly.link/20rgr\nVisa Queries: https://2ly.link/20rgs\nFood recommendations shared map: https://shorturl.at/cIMpQ\nNRI Investment & Taxation: https://shorturl.at/1Z55N\nProfessional Support: https://www.linkedin.com/groups/13039447 & https://shorturl.at/CYstj\nBhukkads in London: https://2ly.link/20rh1\nBoardgames Canary Wharf: https://2ly.link/20rh6\nReddit: r/londonwale\n\n\nTo post your sublet/let/flatmate find/resale post fill the advertisment form above or DM Doraemon @ +447537189407 for assistance\nYour ad remains in the sheet only for 10 days. *Share data at your own risk.\n"
+      },
+      {
+        "timestamp": 1770290384,
+        "sender": "218437959848103@lid",
+        "message": "https://chat.whatsapp.com/GeoscBlhEjY9Ru9XPCxZqE - pls invite members of the book club too"
+      },
+      {
+        "timestamp": 1770290962,
+        "sender": "107404314304672@lid",
+        "message": "All details of the KCL event are at the webpage for the event: https://www.kcl.ac.uk/events/triumphing-over-incredible-obstacles-in-life-and-art"
+      },
+      {
+        "timestamp": 1770456434,
+        "sender": "37546755117281@lid",
+        "message": "https://youtube.com/shorts/NQ-xPYnIznQ?si=H4xRi1WnKf7wNUBq"
+      }
+    ],
+    "Meta-versus": [
+      {
+        "timestamp": 1770053251,
+        "sender": "157485545562197@lid",
+        "message": "That would be good"
+      },
+      {
+        "timestamp": 1770053373,
+        "sender": "169445234315290@lid",
+        "message": "The last group's negotiations extended to 2 months, which could potentially give us the May vest and we can also negotiate the August vest&/ higher base severance as @175745783562379@lid was saying"
+      },
+      {
+        "timestamp": 1770053917,
+        "sender": "16849223844015@lid",
+        "message": "I think someone said something about extending the gardening leave which then gets you the vest too"
+      },
+      {
+        "timestamp": 1770053924,
+        "sender": "16849223844015@lid",
+        "message": "There is a vest in Feb too right?"
+      },
+      {
+        "timestamp": 1770053937,
+        "sender": "157485545562197@lid",
+        "message": "How many people were laid off last time around ? Is the number greater this time ?"
+      },
+      {
+        "timestamp": 1770053948,
+        "sender": "16849223844015@lid",
+        "message": "Smaller"
+      },
+      {
+        "timestamp": 1770054039,
+        "sender": "169445234315290@lid",
+        "message": "Last time was smaller, this time is greater"
+      },
+      {
+        "timestamp": 1770054060,
+        "sender": "157485545562197@lid",
+        "message": "I have heard almost everyone who wanted to find a different role was able to."
+      },
+      {
+        "timestamp": 1770054129,
+        "sender": "16849223844015@lid",
+        "message": "Ideally you find a role by end of march, so just gives you a clean exemption from q1 of impact"
+      },
+      {
+        "timestamp": 1770054770,
+        "sender": "176948458336356@lid",
+        "message": "Somebody suggested extending the timeframe by having lots of ‘reps’ put themselves forward. This means the reps need to be voted on etc which eats up more time."
+      },
+      {
+        "timestamp": 1770055449,
+        "sender": "121311535878229@lid",
+        "message": "👋"
+      },
+      {
+        "timestamp": 1770055552,
+        "sender": "16849223844015@lid",
+        "message": "🤔"
+      },
+      {
+        "timestamp": 1770058081,
+        "sender": "159317550456852@lid",
+        "message": "Yea. Don’t worry of not doing enough while in consultation. I spoke with HR and they’ll back this up with future managers that this what was expected for redeployed employees going to h1 checkpoint"
+      },
+      {
+        "timestamp": 1770058143,
+        "sender": "16849223844015@lid",
+        "message": "Ok great"
+      },
+      {
+        "timestamp": 1770058146,
+        "sender": "16849223844015@lid",
+        "message": "That’s good to know"
+      },
+      {
+        "timestamp": 1770058153,
+        "sender": "16849223844015@lid",
+        "message": "As that’s not officially written anywhere"
+      },
+      {
+        "timestamp": 1770058189,
+        "sender": "16849223844015@lid",
+        "message": "The thing is with these things is… it’s easier for them to portion when you are off for a quarter. When you are off for say 1 month or something like that, it’s a bit harder"
+      },
+      {
+        "timestamp": 1770058195,
+        "sender": "16849223844015@lid",
+        "message": "I had this with my eye injury"
+      },
+      {
+        "timestamp": 1770058698,
+        "sender": "159317550456852@lid",
+        "message": "I agree. I am personally following up with all of my directs moving, to make sure their landing managers are aware"
+      },
+      {
+        "timestamp": 1770116695,
+        "sender": "120061666812113@lid",
+        "message": "Looks like the nomination deadline is upon us. Anyone want my vote?"
+      },
+      {
+        "timestamp": 1770116727,
+        "sender": "12975649874051@lid",
+        "message": "Ed or William if they're up for it?"
+      },
+      {
+        "timestamp": 1770116752,
+        "sender": "157762789052537@lid",
+        "message": "it’s not about voting yet, we need nominees"
+      },
+      {
+        "timestamp": 1770116773,
+        "sender": "12975649874051@lid",
+        "message": "Correct. He meant does anyone else want to be nominated"
+      },
+      {
+        "timestamp": 1770116775,
+        "sender": "120061666812113@lid",
+        "message": "Anyone want me to nominate them, then"
+      },
+      {
+        "timestamp": 1770116794,
+        "sender": "157762789052537@lid",
+        "message": "people can nominate themselves"
+      },
+      {
+        "timestamp": 1770116847,
+        "sender": "157762789052537@lid",
+        "message": "if they want to be nominees there is no need to ask anyone else to nominate them, unless they are busy/lazy"
+      },
+      {
+        "timestamp": 1770116918,
+        "sender": "157762789052537@lid",
+        "message": "but thanks for proposing, maybe it triggers more people to nominate"
+      },
+      {
+        "timestamp": 1770116988,
+        "sender": "157762789052537@lid",
+        "message": "Lauri, why don’t you nominate yourself (if not yet)?"
+      },
+      {
+        "timestamp": 1770117041,
+        "sender": "157762789052537@lid",
+        "message": "more nominees means more time for the process"
+      },
+      {
+        "timestamp": 1770117501,
+        "sender": "127968567386260@lid",
+        "message": "I’ve just done it too. But please don’t vote on me! 😬"
+      },
+      {
+        "timestamp": 1770117526,
+        "sender": "258746076946563@lid",
+        "message": "Same!"
+      },
+      {
+        "timestamp": 1770118214,
+        "sender": "157762789052537@lid",
+        "message": "same :)"
+      },
+      {
+        "timestamp": 1770122988,
+        "sender": "190245727404078@lid",
+        "message": "Afk.  So don't have list, but id say voting for Simone is better than me."
+      },
+      {
+        "timestamp": 1770123265,
+        "sender": "57406549667949@lid",
+        "message": "Hi, Umar Mustafa here from Partner Eng. I believe the voting deadline is 11th Feb. And we’ll have the lists by 5th"
+      },
+      {
+        "timestamp": 1770124773,
+        "sender": "169445234315290@lid",
+        "message": "I recently learnt that if a representative gets another role in the company during the consultation period, they are removed as representative"
+      },
+      {
+        "timestamp": 1770125346,
+        "sender": "16849223844015@lid",
+        "message": "And backfilled?"
+      },
+      {
+        "timestamp": 1770125358,
+        "sender": "169445234315290@lid",
+        "message": "Yup"
+      },
+      {
+        "timestamp": 1770125576,
+        "sender": "49106944843855@lid",
+        "message": "Oh that’s interesting. Is anybody here a part of union ?"
+      },
+      {
+        "timestamp": 1770129488,
+        "sender": "159317550456852@lid",
+        "message": "I didn’t know"
+      },
+      {
+        "timestamp": 1770129599,
+        "sender": "169445234315290@lid",
+        "message": "This was shared with me from the folk who were in the last round last April"
+      },
+      {
+        "timestamp": 1770153844,
+        "sender": "157762789052537@lid",
+        "message": "what was the timeline last April (if you know)?"
+      },
+      {
+        "timestamp": 1770212267,
+        "sender": "252359460536483@lid",
+        "message": "Does anyone know when should we discuss rational on wrong layoffs? I mean during the group or individual consultations?"
+      },
+      {
+        "timestamp": 1770212825,
+        "sender": "157762789052537@lid",
+        "message": "please clarify “wrong”"
+      },
+      {
+        "timestamp": 1770212878,
+        "sender": "16849223844015@lid",
+        "message": "When do the individual consultations start. Would be good to have a chat with a real human about what’s going on"
+      },
+      {
+        "timestamp": 1770212944,
+        "sender": "262018808422626@lid",
+        "message": "It depends, right? You could claim that the layoffs overall are doing more harm than good, and that the people in X team should go do Y - this will be collective consultation."
+      },
+      {
+        "timestamp": 1770212969,
+        "sender": "262018808422626@lid",
+        "message": "If you want to say that you specifically are wrongly targeted, this could be part of individual consultation."
+      },
+      {
+        "timestamp": 1770212977,
+        "sender": "252359460536483@lid",
+        "message": "My projects are still on the roadmap, and just a new designer being assigned to support them, hence the question of not needing the role and layoff!"
+      },
+      {
+        "timestamp": 1770213063,
+        "sender": "262018808422626@lid",
+        "message": "After the collective consultation completes, individual consultation follows, where you'll be able to pick from options that the collective consultation achieved, or argue your own case."
+      },
+      {
+        "timestamp": 1770213543,
+        "sender": "16849223844015@lid",
+        "message": "I think there are a few areas like this"
+      },
+      {
+        "timestamp": 1770214123,
+        "sender": "159317550456852@lid",
+        "message": "the process is far from ideal. As soon as we confirm the representatives, we should collect all the inputs / concerns / requests all people have and see how to move from there"
+      },
+      {
+        "timestamp": 1770214134,
+        "sender": "159317550456852@lid",
+        "message": "my suggestion for now, is to document"
+      },
+      {
+        "timestamp": 1770214171,
+        "sender": "16849223844015@lid",
+        "message": "Yeah sounds good."
+      },
+      {
+        "timestamp": 1770214409,
+        "sender": "252359460536483@lid",
+        "message": "Thank you"
+      },
+      {
+        "timestamp": 1770214721,
+        "sender": "16849223844015@lid",
+        "message": "should we do a google doc but on external email?"
+      },
+      {
+        "timestamp": 1770215061,
+        "sender": "262018808422626@lid",
+        "message": "My internal GForm has about 20 concerns raised - I shared it with Simone previously. Happy to merge them with the external form/doc"
+      },
+      {
+        "timestamp": 1770215725,
+        "sender": "223716340457500@lid",
+        "message": "External doc sounds like a great idea. I started one here. Please request access with your personal account. https://docs.google.com/document/d/1LJ0eIKxXJDdTOw1jEoAgJXs_1zOKXtntnXBwiqtgnEY/edit?usp=sharing"
+      },
+      {
+        "timestamp": 1770215783,
+        "sender": "223716340457500@lid",
+        "message": "I have a personal Workspace account so happy to host."
+      },
+      {
+        "timestamp": 1770216753,
+        "sender": "16849223844015@lid",
+        "message": "in the past i have joined forced with a few people to reduce legal costs"
+      },
+      {
+        "timestamp": 1770216770,
+        "sender": "159317550456852@lid",
+        "message": "Maybe use life@ benefits 😂"
+      },
+      {
+        "timestamp": 1770216776,
+        "sender": "16849223844015@lid",
+        "message": "er no thanks"
+      },
+      {
+        "timestamp": 1770216784,
+        "sender": "16849223844015@lid",
+        "message": "i’m going to spend that all next week lol"
+      },
+      {
+        "timestamp": 1770216843,
+        "sender": "54086556725451@lid",
+        "message": "Wasn’t there something about Meta reimbursing up to 450£ in legal fees?"
+      },
+      {
+        "timestamp": 1770217334,
+        "sender": "223716340457500@lid",
+        "message": "Yes - it’s in the Employee Info Pack."
+      },
+      {
+        "timestamp": 1770217578,
+        "sender": "16849223844015@lid",
+        "message": "Yes they always have to do that, but where sometimes I’ve used legal before costs have increased as I’ve got them to do formal negotiations"
+      },
+      {
+        "timestamp": 1770217769,
+        "sender": "224205899624699@lid",
+        "message": "what's the timeline of having to seek legal advice? do we wait for the collective consultation process to take place and then present their findings to our respective lawyers, or would we need to start early?"
+      },
+      {
+        "timestamp": 1770217993,
+        "sender": "276918117130388@lid",
+        "message": "The usual legal advice is after the final consultation and package has been received. That’s what meta is obliged to pay for. (450) \nAny other legal advice taken beforehand is on the individual."
+      },
+      {
+        "timestamp": 1770218025,
+        "sender": "54086556725451@lid",
+        "message": "What is the purpose of legal advice after the package has already been agreed?"
+      },
+      {
+        "timestamp": 1770218111,
+        "sender": "276918117130388@lid",
+        "message": "It’s to see if the agreement we are entering with meta ,as per the layoff, is all good for us to sign. They go through the agreement and the legalese within to see if anything’s untoward."
+      },
+      {
+        "timestamp": 1770218178,
+        "sender": "276918117130388@lid",
+        "message": "(That’s the standard process I’ve gone through before)"
+      },
+      {
+        "timestamp": 1770218254,
+        "sender": "169445234315290@lid",
+        "message": "@276918117130388@lid can you give us the timeline from last april?"
+      },
+      {
+        "timestamp": 1770218263,
+        "sender": "276918117130388@lid",
+        "message": "They also explain parts which you might have not understood - since they essentially work on your behalf"
+      },
+      {
+        "timestamp": 1770218284,
+        "sender": "54086556725451@lid",
+        "message": "Thanks for clarifying. I wonder if that’s something LLM can do these days."
+      },
+      {
+        "timestamp": 1770218605,
+        "sender": "276918117130388@lid",
+        "message": "Ah. Let me try to remember. \nIn April - we were told about layoffs around the 28th. \n\nAfter which reps were selected the consultation process started in may, taking the whole of May to the beginning of June. The biggest part of our negotiation was increasing garden leave period to August so that we could get the next vest + some medical costs. (Our bargaining power was limited due to size of people affected)\n\nIn June we got the first emails being told we were selected for layoffs. I am not sure there were individual consultations but by mid/end June the termination papers were sent and the 2 month garden leave began for people who signed them .  \n\nIn August people who did not get other meta jobs were officially let go (with final packages received) \n\nThat was the rough timeline."
+      },
+      {
+        "timestamp": 1770219121,
+        "sender": "127968567386260@lid",
+        "message": "@276918117130388@lid what happened with people that were not selected but did not yet find a redeployment? Is that a case?"
+      },
+      {
+        "timestamp": 1770219234,
+        "sender": "159317550456852@lid",
+        "message": "They would stay in the org and only after consultations, business can decide what to do with them"
+      },
+      {
+        "timestamp": 1770219266,
+        "sender": "276918117130388@lid",
+        "message": "Yes - exactly. Did not see that was a case last time tbh. \nIf you are not selected - you are not affected and your role is safe."
+      },
+      {
+        "timestamp": 1770222525,
+        "sender": "223716340457500@lid",
+        "message": "@276918117130388@lid Am I reading this right that you were able to extend the garden leave, from 4 to 8 weeks?"
+      },
+      {
+        "timestamp": 1770223152,
+        "sender": "16849223844015@lid",
+        "message": "What rationale did you use to win the extra weeks/vest?"
+      },
+      {
+        "timestamp": 1770223949,
+        "sender": "16849223844015@lid",
+        "message": "But on what grounds"
+      },
+      {
+        "timestamp": 1770223956,
+        "sender": "16849223844015@lid",
+        "message": "Like you asked for it but how was it justified"
+      },
+      {
+        "timestamp": 1770224013,
+        "sender": "276918117130388@lid",
+        "message": "I think it was based on previous layoffs. The nearest vesting cycle was given."
+      },
+      {
+        "timestamp": 1770224105,
+        "sender": "276918117130388@lid",
+        "message": "I understood that as the new notice period, in case officially in your contract it is just a month."
+      },
+      {
+        "timestamp": 1770224466,
+        "sender": "223716340457500@lid",
+        "message": "I understand this as garden leave and notice period run in parallel."
+      },
+      {
+        "timestamp": 1770290191,
+        "sender": "276918117130388@lid",
+        "message": "Hello all. We received the nominee list this morn. Is there an indication here, whom we should actually vote for vs people who just added their names in for extending the process?  🙂"
+      },
+      {
+        "timestamp": 1770294524,
+        "sender": "169445234315290@lid",
+        "message": "Just something on that, I did write something but it didnt come through in the email shareout. I've reached out to the team to understand why"
+      },
+      {
+        "timestamp": 1770294909,
+        "sender": "111226902343887@lid",
+        "message": "Make sure you argue that the process is broken and we should start again in a couple of weeks 😉"
+      },
+      {
+        "timestamp": 1770369412,
+        "sender": "16849223844015@lid",
+        "message": "Tish - I liked your pitch - you sure you ok taking this on?"
+      },
+      {
+        "timestamp": 1770369432,
+        "sender": "16849223844015@lid",
+        "message": "We should have a mix of roles and level of aggression and anger 🤣🤣🤣"
+      },
+      {
+        "timestamp": 1770369465,
+        "sender": "16849223844015@lid",
+        "message": "From speaking to people who’ve been through this it feels like May vest might be a possible negotiation"
+      },
+      {
+        "timestamp": 1770369473,
+        "sender": "16849223844015@lid",
+        "message": "What date is that vest"
+      },
+      {
+        "timestamp": 1770369516,
+        "sender": "16849223844015@lid",
+        "message": "How much of a gap do we have been the consolation end date and termination and that next vest? \n\nTo extend the process, we could also get more people having 121 consultations"
+      },
+      {
+        "timestamp": 1770369529,
+        "sender": "16849223844015@lid",
+        "message": "This is what someone told me but will do more reading over the weekend"
+      },
+      {
+        "timestamp": 1770370395,
+        "sender": "111226902343887@lid",
+        "message": "15th of May"
+      },
+      {
+        "timestamp": 1770370538,
+        "sender": "276918117130388@lid",
+        "message": "It is definitely possible. There are just 3 weeks between April 23rd when people are supposed to be let go and May 15th. It is a replica of what happened in June 2025. Asking for a 2 month garden leave is something we should push for."
+      },
+      {
+        "timestamp": 1770371159,
+        "sender": "175745783562379@lid",
+        "message": "I would also support asking got 2 month garden leave, as it would give those on a Skilled Worker visa an additional month to find a new role in UK"
+      },
+      {
+        "timestamp": 1770371644,
+        "sender": "16849223844015@lid",
+        "message": "Ok so 3 weeks is not a lot"
+      },
+      {
+        "timestamp": 1770371648,
+        "sender": "16849223844015@lid",
+        "message": "🤔"
+      },
+      {
+        "timestamp": 1770371694,
+        "sender": "157762789052537@lid",
+        "message": "people are proposed to let go  on April 23rd, though having 8 week notice period in your contract makes it look strange, because end-of-march plus two weeks definitely covers vesting date."
+      },
+      {
+        "timestamp": 1770371764,
+        "sender": "57406549667949@lid",
+        "message": "It might be worth confirming that RSUs still vest during notice period/garden leave"
+      },
+      {
+        "timestamp": 1770371786,
+        "sender": "16849223844015@lid",
+        "message": "Did we start a doc for questions etc? If not I can start one today. \n\nAfter sessions session with recruitment there was a ton of hrbp questions which we should try and collect. \n\nI’m thinking I’d be happy to help in the background prep… but maybe @169445234315290@lid plus few others take the rep role? Just gonna have a think over the weekend"
+      },
+      {
+        "timestamp": 1770372094,
+        "sender": "157762789052537@lid",
+        "message": "i believe it’s written in one of the documents in the email - we receive vestings that happen until the termination date."
+      },
+      {
+        "timestamp": 1770372379,
+        "sender": "193754732478702@lid",
+        "message": "@16849223844015@lid doc has been started here"
+      },
+      {
+        "timestamp": 1770372532,
+        "sender": "16849223844015@lid",
+        "message": "Great! Thanks!"
+      },
+      {
+        "timestamp": 1770372534,
+        "sender": "16849223844015@lid",
+        "message": "Pinned it"
+      },
+      {
+        "timestamp": 1770372645,
+        "sender": "16849223844015@lid",
+        "message": "I’ve asked Rachel from yesterday to see if she can share the Q&A she couldn’t answer  - the ones directed at HRBP"
+      },
+      {
+        "timestamp": 1770372708,
+        "sender": "16849223844015@lid",
+        "message": "requested access"
+      },
+      {
+        "timestamp": 1770374678,
+        "sender": "111226902343887@lid",
+        "message": "Can you share the link please? The old message won’t be visible to those who joined later. 🙏"
+      },
+      {
+        "timestamp": 1770374888,
+        "sender": "111226902343887@lid",
+        "message": "Sorry, I meant link it in the media section of this chat. For some reason I can’t access the link in the pinned message"
+      },
+      {
+        "timestamp": 1770375144,
+        "sender": "16849223844015@lid",
+        "message": "External doc sounds like a great idea. I started one here. Please request access with your personal account. https://docs.google.com/document/d/1LJ0eIKxXJDdTOw1jEoAgJXs_1zOKXtntnXBwiqtgnEY/edit?usp=sharing"
+      },
+      {
+        "timestamp": 1770375566,
+        "sender": "111226902343887@lid",
+        "message": "Also we need to consolidate efforts. There is an internal gchat thread with the RL Metaverse constituency that has 100+ members and we are only 50ish here. That group is also running a gdoc (internal)\n\nWe should move all chats and docs to external versions so we still have access when on garden leave. We should also make sure we have access to docs from personal accounts.\n\nI’ll share the link for this chat with the internal group and if we can all circulate the link to any others we know are impacted we can give everyone the comfort of group support.\n\nI’ll also confirm that the internal group is ok with copying the content to the one above.\n\nYell if you have any issues with the above (I’ll wait a bit before reaching out)"
+      },
+      {
+        "timestamp": 1770375779,
+        "sender": "49106944843855@lid",
+        "message": "Also heard from French colleagues that in previous layoffs the package for voluntary layoff in France was 10 months of garden leave + 2 month for every year worked. So I think there should be a good room for negotiations"
+      },
+      {
+        "timestamp": 1770375899,
+        "sender": "16849223844015@lid",
+        "message": "OMG! we won’t get away with that"
+      },
+      {
+        "timestamp": 1770375917,
+        "sender": "16849223844015@lid",
+        "message": "i’d be happy to move there for a few months to test it lol"
+      },
+      {
+        "timestamp": 1770376395,
+        "sender": "276918117130388@lid",
+        "message": "+ raising the min weeks of pay to 16 from 12 > This is the current case in the US"
+      },
+      {
+        "timestamp": 1770376444,
+        "sender": "16849223844015@lid",
+        "message": "i think the 12 to 16 should be an easy win"
+      },
+      {
+        "timestamp": 1770382090,
+        "sender": "169445234315290@lid",
+        "message": "I really am. There's a lot at stake for folk here"
+      },
+      {
+        "timestamp": 1770382383,
+        "sender": "16849223844015@lid",
+        "message": "That’s amazing!"
+      },
+      {
+        "timestamp": 1770382398,
+        "sender": "16849223844015@lid",
+        "message": "anyone else on here raise their hand if they feel strongly about being voted in"
+      },
+      {
+        "timestamp": 1770382405,
+        "sender": "16849223844015@lid",
+        "message": "ideally we should club together to be happy with who we land on"
+      },
+      {
+        "timestamp": 1770382844,
+        "sender": "130743300837576@lid",
+        "message": "I agree. Another very strong pitch was Ryan McKindle, and a lot of relevant experience to back it up"
+      },
+      {
+        "timestamp": 1770383394,
+        "sender": "16849223844015@lid",
+        "message": "I think we need 4"
+      },
+      {
+        "timestamp": 1770383412,
+        "sender": "16849223844015@lid",
+        "message": "I’m keen to probably step down, but want to make sure we feel we have a solid 4"
+      },
+      {
+        "timestamp": 1770386426,
+        "sender": "223716340457500@lid",
+        "message": "I just accepted a bunch of access requests for the shared doc. Sorry for the delay - I’m in ET this week."
+      },
+      {
+        "timestamp": 1770386448,
+        "sender": "223716340457500@lid",
+        "message": "I declined requests with @meta.com addresses – sorry, just being cautious."
+      },
+      {
+        "timestamp": 1770386467,
+        "sender": "223716340457500@lid",
+        "message": "If you didn’t get access, please request again with a personal account."
+      },
+      {
+        "timestamp": 1770387102,
+        "sender": "223716340457500@lid",
+        "message": "Holy fuck"
+      },
+      {
+        "timestamp": 1770387138,
+        "sender": "223716340457500@lid",
+        "message": "Agree with this @111226902343887@lid. I’ll track down the other doc and move stuff over."
+      },
+      {
+        "timestamp": 1770387139,
+        "sender": "150603045032078@lid",
+        "message": "can you share the doc please? I just joined the group"
+      },
+      {
+        "timestamp": 1770387289,
+        "sender": "4977900679213@lid",
+        "message": "on the description of the group there is the link, please request access with personal email"
+      },
+      {
+        "timestamp": 1770387297,
+        "sender": "4977900679213@lid",
+        "message": "https://docs.google.com/document/d/1LJ0eIKxXJDdTOw1jEoAgJXs_1zOKXtntnXBwiqtgnEY/edit?tab=t.0"
+      },
+      {
+        "timestamp": 1770387328,
+        "sender": "150603045032078@lid",
+        "message": "thanks!!"
+      },
+      {
+        "timestamp": 1770389098,
+        "sender": "223716340457500@lid",
+        "message": "This is the same external doc that I started, so I think we only have one. Except @262018808422626@lid's concerns list, which I can move over."
+      },
+      {
+        "timestamp": 1770390054,
+        "sender": "76652298137837@lid",
+        "message": "Requested access please approve 🙏"
+      },
+      {
+        "timestamp": 1770390085,
+        "sender": "277244568178898@lid",
+        "message": "I requested access as well! (cheney.meredith@gmail.com)"
+      },
+      {
+        "timestamp": 1770390102,
+        "sender": "223716340457500@lid",
+        "message": "All granted!"
+      },
+      {
+        "timestamp": 1770390107,
+        "sender": "223716340457500@lid",
+        "message": "Keep em’ coming"
+      },
+      {
+        "timestamp": 1770390523,
+        "sender": "223716340457500@lid",
+        "message": "Please do add anything relevant to the doc - dates, questions, concerns. It’s for all of us to use and share."
+      },
+      {
+        "timestamp": 1770395941,
+        "sender": "204736846401787@lid",
+        "message": "hey everyone - thank you for setting this up. I’ve just joined the group and requested access to the doc, can someone grant me in? Thanks!"
+      }
+    ],
+    "Bhukkads in London 🥘": [
+      {
+        "timestamp": 1770367973,
+        "sender": "127947226804408@lid",
+        "message": "Any chicken Burger recommendations around central or canarywharf."
+      },
+      {
+        "timestamp": 1770368272,
+        "sender": "148502889951354@lid",
+        "message": "Honest burgers"
+      },
+      {
+        "timestamp": 1770384614,
+        "sender": "157625668886565@lid",
+        "message": "Really like the veg one Fritter as well!"
+      },
+      {
+        "timestamp": 1770384641,
+        "sender": "12610711879836@lid",
+        "message": "Gordon ramsey’s street burger!"
+      },
+      {
+        "timestamp": 1770384645,
+        "sender": "12610711879836@lid",
+        "message": "Really good !"
+      },
+      {
+        "timestamp": 1770387050,
+        "sender": "119778484158706@lid",
+        "message": "Broski i know one in east ham but i forgot the name ik the place tho"
+      },
+      {
+        "timestamp": 1770387150,
+        "sender": "246741660102825@lid",
+        "message": "East Ham isn’t exactly Central London though"
+      },
+      {
+        "timestamp": 1770387173,
+        "sender": "246741660102825@lid",
+        "message": "I meant more around City of London and city of Westminster areas"
+      },
+      {
+        "timestamp": 1770387374,
+        "sender": "203796399583474@lid",
+        "message": "BKC"
+      },
+      {
+        "timestamp": 1770387612,
+        "sender": "127947226804408@lid",
+        "message": "+1"
+      }
+    ],
+    "Ramadevi": [
+      {
+        "timestamp": 1770137914,
+        "sender": "Ramadevi",
+        "message": "Jassu office lo vunnava"
+      },
+      {
+        "timestamp": 1770137934,
+        "sender": "Ramadevi",
+        "message": "Good night chinna"
+      },
+      {
+        "timestamp": 1770139429,
+        "sender": "__me__",
+        "message": "Yes, meeting lo unna. Repu call chestha"
+      }
+    ],
+    "siddharth": [
+      {
+        "timestamp": 1770042444,
+        "sender": "siddharth",
+        "message": "can you collect keys from ishnoor kaur’s desk?"
+      },
+      {
+        "timestamp": 1770045494,
+        "sender": "__me__",
+        "message": "Not in office today, will collect tomorrow"
+      },
+      {
+        "timestamp": 1770047161,
+        "sender": "siddharth",
+        "message": "okay"
+      },
+      {
+        "timestamp": 1770047168,
+        "sender": "siddharth",
+        "message": "take it whenever you go next time"
+      }
+    ],
+    "Indians @Tottenham": [
+      {
+        "timestamp": 1770000160,
+        "sender": "213902390472859@lid",
+        "message": "Bhai I am eating maggi & omlette"
+      },
+      {
+        "timestamp": 1770000166,
+        "sender": "239521836843030@lid",
+        "message": "same bro"
+      },
+      {
+        "timestamp": 1770000181,
+        "sender": "213902390472859@lid",
+        "message": "Ofc because I made it"
+      },
+      {
+        "timestamp": 1770000344,
+        "sender": "nee",
+        "message": "dhurandhar laga do sath me"
+      },
+      {
+        "timestamp": 1770000366,
+        "sender": "213902390472859@lid",
+        "message": "Going to sleep bhai otherwise tomorrow is fucked"
+      },
+      {
+        "timestamp": 1770000389,
+        "sender": "918383802821@s.whatsapp.net",
+        "message": "Bread cheese khaya mai bhi 😂"
+      },
+      {
+        "timestamp": 1770000402,
+        "sender": "239521836843030@lid",
+        "message": "bhai sb bhuke the 😂"
+      },
+      {
+        "timestamp": 1770000419,
+        "sender": "nee",
+        "message": "“pizza order kardu kya?”"
+      },
+      {
+        "timestamp": 1770000458,
+        "sender": "239521836843030@lid",
+        "message": "“ nh nh yr hum bss niklne wale hai”"
+      }
+    ]
+  }
+}

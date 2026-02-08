@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "auto-talk": "./bin/cli.js"
+  },
   "scripts": {
-    "start": "node src/whatsapp-config.js",
+    "start": "node index.js",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +26,11 @@
   "dependencies": {
     "baileys": "^7.0.0-rc.9",
     "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.1",
+    "@types/qrcode-terminal": "^0.12.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
