@@ -1,7 +1,9 @@
 import { makeWASocket, useMultiFileAuthState, DisconnectReason, WASocket } from 'baileys';
 import qrcode from 'qrcode-terminal';
-import { processMessageBatch } from './message-history-processor';
-import { initOrchestrator } from './message-history-analyzer';
+import { processMessageBatch } from '../code/message-history-processor';
+import { initOrchestrator } from '../code/message-history-analyzer';
+import { startHealthMonitor } from '../code/health-monitor';
+import { registerShutdownHandlers } from './shutdown-handler';
 import { PATHS } from '../config/config';
 import { log } from '../logs/logger';
 
@@ -60,8 +62,10 @@ export async function connectToWhatsApp(): Promise<WASocket> {
         }
     });
 
-    // Initialize orchestrator before returning
+    // Initialize orchestrator, health monitor, and shutdown handlers
     initOrchestrator();
+    startHealthMonitor();
+    registerShutdownHandlers();
 
     return sock;
 }

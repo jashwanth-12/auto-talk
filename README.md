@@ -23,7 +23,6 @@ Starts the auto-talk service:
 - Connects to WhatsApp and receives message history
 - Processes messages (filters last 7 days, max 500 per chat)
 - Analyzes conversations using Ollama LLM
-- Outputs analysis to `whatsapp-msgs-analysis.json`
 
 ### Start with Debug Mode
 
@@ -44,16 +43,32 @@ Stops the auto-talk service:
 - Cleans up PID file
 - Deletes auth info
 
+### Cleanup
+
+```bash
+auto-talk cleanup
+```
+
+Full cleanup for end of day:
+- Stops Ollama server (frees RAM)
+- Stops auto-talk if running
+- Deletes log files
+
 ## Project Structure
 
 ```
 src/
-├── config/
-│   └── config.ts          # All configuration (paths, LLM, processor settings)
+├── app-lifecycle/
+│   ├── whatsapp-client.ts     # WhatsApp connection and event handling
+│   └── shutdown-handler.ts    # Graceful shutdown and cleanup
 ├── code/
-│   ├── whatsapp-client.ts       # WhatsApp connection and event handling
 │   ├── message-history-processor.ts  # Message processing and transformation
-│   └── message-history-analyzer.ts   # LLM analysis and prompting
+│   ├── message-history-analyzer.ts   # LLM analysis and prompting
+│   └── health-monitor.ts      # Server health stats logging
+├── config/
+│   └── config.ts              # All configuration (paths, LLM, processor settings)
+├── logs/
+│   └── logger.ts              # Debug logging utility
 └── repository/
     └── message-history-repository.ts  # Processed data storage
 ```
@@ -71,7 +86,6 @@ Configuration is centralized in `src/config/config.ts`:
 - Ollama (for LLM analysis)
 - WhatsApp account
 
-## Output Files
+## Output
 
-- `processed_messages.json` - Processed message history
-- `whatsapp-msgs-analysis.json` - LLM analysis results with relationship types and descriptions
+- `logs/*.log` - Debug logs (only in `--debug` mode)

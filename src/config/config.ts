@@ -25,6 +25,11 @@ export const LLM_CONFIG = {
     serverCheckMaxAttempts: 30  // 60 seconds max wait
 };
 
+// ============ HEALTH MONITOR CONFIG ============
+export const HEALTH_CONFIG = {
+    intervalMs: 60000  // Log health stats every 60 seconds
+};
+
 // ============ DEBUG MODE ============
 export function isDebugMode(): boolean {
     return process.env.AUTO_TALK_DEBUG === 'true';
