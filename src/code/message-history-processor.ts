@@ -1,7 +1,7 @@
 import { Chat, Contact, WAMessage } from 'baileys';
-import * as fs from 'fs';
 import { eventBus, OrchestratorEvents } from './message-history-analyzer';
-import { PATHS, PROCESSOR_CONFIG } from '../config/config';
+import { PROCESSOR_CONFIG } from '../config/config';
+import { log } from '../logs/logger';
 import * as repository from '../repository/message-history-repository';
 import { ChatMessage } from '../repository/message-history-repository';
 
@@ -9,19 +9,6 @@ import { ChatMessage } from '../repository/message-history-repository';
 export interface ProcessorConfig {
     maxMessagesPerChat: number;
     daysToKeep: number;
-}
-
-// ============ OUTPUT TYPES ============
-export interface ProcessedChatsResult {
-    processedAt: string;
-    config: ProcessorConfig;
-    stats: {
-        originalMessageCount: number;
-        filteredMessageCount: number;
-        chatCount: number;
-        batchesReceived: number;
-    };
-    chats: Record<string, ChatMessage[]>;
 }
 
 // ============ INTERNAL STATE ============
@@ -41,7 +28,7 @@ function scheduleEventEmit(): void {
 
     // Start new timer - fires after debounce period of no new batches
     debounceTimer = setTimeout(() => {
-        console.log('[Processor] Debounce complete, emitting InitialHistoryReceived event');
+        log('[Processor] Debounce complete, emitting InitialHistoryReceived event');
         eventBus.emit(OrchestratorEvents.INITIAL_HISTORY_RECEIVED);
         debounceTimer = null;
     }, PROCESSOR_CONFIG.eventDebounceMs);
@@ -113,8 +100,8 @@ export function processMessageBatch(messages: WAMessage[], contacts: Contact[], 
         }
     }
 
-    console.log(`[Processor] Batch #${batchCount}: ${messages.length} messages, ${contacts.length} contacts, ${incomingChats.length} chats`);
-    console.log(`[Processor] Total accumulated: ${allMessages.length} messages`);
+    log(`[Processor] Batch #${batchCount}: ${messages.length} messages, ${contacts.length} contacts, ${incomingChats.length} chats`);
+    log(`[Processor] Total accumulated: ${allMessages.length} messages`);
 
     // Process all accumulated messages
     const now = Date.now();
@@ -171,25 +158,10 @@ export function processMessageBatch(messages: WAMessage[], contacts: Contact[], 
         totalFilteredCount += outputChats[chatName].length;
     }
 
-    const result: ProcessedChatsResult = {
-        processedAt: new Date().toISOString(),
-        config: {
-            maxMessagesPerChat: PROCESSOR_CONFIG.maxMessagesPerChat,
-            daysToKeep: PROCESSOR_CONFIG.daysToKeep
-        },
-        stats: {
-            originalMessageCount: allMessages.length,
-            filteredMessageCount: totalFilteredCount,
-            chatCount: Object.keys(outputChats).length,
-            batchesReceived: batchCount
-        },
-        chats: outputChats
-    };
+    // Write to file only in debug mode
+    log(outputChats);
 
-    fs.writeFileSync(PATHS.PROCESSED_MESSAGES_FILE, JSON.stringify(result, null, 2));
-
-    console.log(`[Processor] Processed and saved to ${PATHS.PROCESSED_MESSAGES_FILE}`);
-    console.log(`[Processor] Output: ${totalFilteredCount} messages across ${Object.keys(outputChats).length} chats`);
+    log(`[Processor] Output: ${totalFilteredCount} messages across ${Object.keys(outputChats).length} chats`);
 
     // Store processed chats in repository and schedule debounced event emit
     repository.setChats(outputChats);

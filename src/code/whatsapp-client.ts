@@ -3,6 +3,7 @@ import qrcode from 'qrcode-terminal';
 import { processMessageBatch } from './message-history-processor';
 import { initOrchestrator } from './message-history-analyzer';
 import { PATHS } from '../config/config';
+import { log } from '../logs/logger';
 
 export async function connectToWhatsApp(): Promise<WASocket> {
     // Load saved credentials or create new ones
@@ -21,23 +22,23 @@ export async function connectToWhatsApp(): Promise<WASocket> {
         const { connection, lastDisconnect, qr } = update;
 
         if (qr) {
-            console.log('Scan the QR code below with your WhatsApp app:');
+            log('Scan the QR code below with your WhatsApp app:');
             qrcode.generate(qr, { small: true });
         }
 
         if (connection === 'close') {
             const statusCode = (lastDisconnect?.error as any)?.output?.statusCode;
             const shouldReconnect = statusCode !== DisconnectReason.loggedOut;
-            console.log('Connection closed due to:', lastDisconnect?.error?.message);
+            log('Connection closed due to: ' + lastDisconnect?.error?.message);
 
             if (shouldReconnect) {
-                console.log('Reconnecting...');
+                log('Reconnecting...');
                 connectToWhatsApp();
             } else {
-                console.log('Logged out. Please delete auth_info folder and restart to re-authenticate.');
+                log('Logged out. Please delete auth_info folder and restart to re-authenticate.');
             }
         } else if (connection === 'open') {
-            console.log('Connected to WhatsApp!');
+            log('Connected to WhatsApp!');
         }
     });
 
@@ -55,7 +56,7 @@ export async function connectToWhatsApp(): Promise<WASocket> {
                                    message.message?.extendedTextMessage?.text ||
                                    '[Media/Other content]';
 
-            console.log(`New message from ${sender}: ${messageContent}`);
+            log(`New message from ${sender}: ${messageContent}`);
         }
     });
 

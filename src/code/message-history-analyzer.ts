@@ -3,6 +3,7 @@ import { spawn } from 'child_process';
 import * as fs from 'fs';
 import * as path from 'path';
 import { LLM_CONFIG, PATHS } from '../config/config';
+import { log } from '../logs/logger';
 import * as repository from '../repository/message-history-repository';
 import { ChatMessage } from '../repository/message-history-repository';
 
@@ -25,29 +26,29 @@ async function isOllamaServerRunning(): Promise<boolean> {
 }
 
 async function waitForServer(): Promise<boolean> {
-    console.log('[LLM] Waiting for Ollama server to be ready...');
+    log('[LLM] Waiting for Ollama server to be ready...');
 
     for (let attempt = 0; attempt < LLM_CONFIG.serverCheckMaxAttempts; attempt++) {
         if (await isOllamaServerRunning()) {
-            console.log('[LLM] Ollama server is ready');
+            log('[LLM] Ollama server is ready');
             return true;
         }
         await new Promise(resolve => setTimeout(resolve, LLM_CONFIG.serverCheckIntervalMs));
     }
 
-    console.error('[LLM] Ollama server did not start in time');
+    log('[LLM] Ollama server did not start in time');
     return false;
 }
 
 export async function startLlmServerIfNeeded(): Promise<boolean> {
-    console.log('[LLM] Checking if Ollama server is running...');
+    log('[LLM] Checking if Ollama server is running...');
 
     if (await isOllamaServerRunning()) {
-        console.log('[LLM] Ollama server is already running');
+        log('[LLM] Ollama server is already running');
         return true;
     }
 
-    console.log('[LLM] Starting Ollama server...');
+    log('[LLM] Starting Ollama server...');
 
     // Start ollama serve in background
     const ollamaProcess = spawn('ollama', ['serve'], {
@@ -65,7 +66,7 @@ export async function startLlmServerIfNeeded(): Promise<boolean> {
     }
 
     // Pull/start the model
-    console.log(`[LLM] Ensuring model ${LLM_CONFIG.ollamaModel} is available...`);
+    log(`[LLM] Ensuring model ${LLM_CONFIG.ollamaModel} is available...`);
 
     return new Promise((resolve) => {
         const pullProcess = spawn('ollama', ['pull', LLM_CONFIG.ollamaModel], {
@@ -74,16 +75,16 @@ export async function startLlmServerIfNeeded(): Promise<boolean> {
 
         pullProcess.on('close', (code) => {
             if (code === 0) {
-                console.log(`[LLM] Model ${LLM_CONFIG.ollamaModel} is ready`);
+                log(`[LLM] Model ${LLM_CONFIG.ollamaModel} is ready`);
                 resolve(true);
             } else {
-                console.error(`[LLM] Failed to pull model ${LLM_CONFIG.ollamaModel}`);
+                log(`[LLM] Failed to pull model ${LLM_CONFIG.ollamaModel}`);
                 resolve(false);
             }
         });
 
         pullProcess.on('error', (err) => {
-            console.error('[LLM] Error pulling model:', err.message);
+            log('[LLM] Error pulling model: ' + err.message);
             resolve(false);
         });
     });
@@ -97,7 +98,7 @@ export async function promptLlm(input: string, outputFileName: string): Promise<
         throw new Error('Ollama server is not available');
     }
 
-    console.log('[LLM] Sending prompt to LLM...');
+    log('[LLM] Sending prompt to LLM...');
 
     try {
         const response = await fetch(`${LLM_CONFIG.ollamaHost}/api/generate`, {
@@ -121,12 +122,12 @@ export async function promptLlm(input: string, outputFileName: string): Promise<
         // Write output to file
         const outputPath = path.join(PATHS.ROOT_DIR, outputFileName);
         fs.writeFileSync(outputPath, data.response);
-        console.log(`[LLM] Response written to ${outputPath}`);
+        log(`[LLM] Response written to ${outputPath}`);
 
         return data.response;
     } catch (error) {
         const errorMessage = error instanceof Error ? error.message : 'Unknown error';
-        console.error('[LLM] Error prompting LLM:', errorMessage);
+        log('[LLM] Error prompting LLM: ' + errorMessage);
         throw error;
     }
 }
@@ -141,7 +142,7 @@ export type AnalysisResult = Record<string, ChatAnalysis>;
 
 // ============ ORCHESTRATOR ============
 export function initOrchestrator(): void {
-    console.log('Orchestrator initialized');
+    log('Orchestrator initialized');
 
     // Subscribe to InitialHistoryReceived event
     eventBus.on(OrchestratorEvents.INITIAL_HISTORY_RECEIVED, () => {
@@ -192,27 +193,27 @@ async function handleInitialHistoryReceived(): Promise<void> {
     const chatCount = Object.keys(chats).length;
 
     if (chatCount === 0) {
-        console.log('[Analyzer] No chats available');
+        log('[Analyzer] No chats available');
         return;
     }
 
     const messageCount = Object.values(chats).reduce((sum, msgs) => sum + msgs.length, 0);
 
-    console.log(`[Analyzer] Received InitialHistoryReceived event`);
-    console.log(`  - Chats: ${chatCount}`);
-    console.log(`  - Messages: ${messageCount}`);
+    log(`[Analyzer] Received InitialHistoryReceived event`);
+    log(`  - Chats: ${chatCount}`);
+    log(`  - Messages: ${messageCount}`);
 
     try {
-        console.log('[Analyzer] Analyzing message history with LLM...');
+        log('[Analyzer] Analyzing message history with LLM...');
 
         const messagesText = formatMessagesForPrompt(chats);
         const prompt = buildAnalysisPrompt(messagesText);
 
         await promptLlm(prompt, PATHS.ANALYSIS_OUTPUT_FILE);
 
-        console.log('[Analyzer] Analysis complete');
+        log('[Analyzer] Analysis complete');
     } catch (error) {
         const errorMessage = error instanceof Error ? error.message : 'Unknown error';
-        console.error('[Analyzer] Error during analysis:', errorMessage);
+        log('[Analyzer] Error during analysis: ' + errorMessage);
     }
 }
